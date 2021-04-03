@@ -7,9 +7,10 @@
   --footer-header: rgba(47, 48, 58, 1);
   --body-hero-color: rgba(255, 255, 255, 1);
   --logo-main-color: rgba(0, 0, 0, 1);
+  --bg-color: rgba(229, 229, 229, 1);
 }
 body {
-  background-color: var(--bnt-bg--color);
+  background-color: var(--body-hero-color);
   color: var(--sub-text-color);
   font-family: Roboto, sans-serif;
   /* line-height: 1.71;
@@ -119,4 +120,31 @@ h6 {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+}
+.buttons {
+  background-color: var(--bnt-bg--color);
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.86;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.buttons:hover,
+.buttons:focus {
+  background-color: var(--accent-color);
+}
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects-sub-title {
+  font-size: 16px;
+  line-height: 1.86;
 }
