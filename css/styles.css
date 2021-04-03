@@ -99,6 +99,11 @@ h6 {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--main-text-color);
+  background-color: var(--bnt-bg--color);
+}
 .advantages-list h3 {
   font-weight: 700;
   font-size: 14px;
